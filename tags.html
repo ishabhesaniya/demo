@@ -1,0 +1,382 @@
+<html>
+    <head>
+        <title>Tags</title>
+        <base href="www.w3schools.com" target="_blank">
+        <style>
+            table,th,td{
+                border: 1px solid black;
+            }
+        </style>
+        <link rel="stylesheet" href="stylee.css">
+    </head>
+    <body>
+        <!-- This is a comment -->
+        <!---This is a 
+        multiline comment //-->
+        <p>This is a paragraph</p>
+
+        <!-- A tag is a used to the hyperlink in dispaly imge,open link in browser,send email,link in phone number,alert in javascript  -->
+        <a href="www.google.com">This a link</a> <br/>
+        <a href="www.w3schools.com">
+        <img border="0" src="logo3.png" alt="w3schools" width="100" height="100"></a><br/>
+        
+        <!-- abbr is a use in a mouse hover element in a disply  -->
+        The<abbr title="Word Health organization">WHO</abbr> was founded in 1984.<br/><br/>
+        
+        <!-- Address is a use of a contact information in a document and address tag is a text in italic. -->
+        <Address>
+            Written by<br/>
+            visit us at:<br/>
+            Example.com<br/>
+            jnd
+        </Address>
+
+        <!-- Area tag is a use of the inside map and img.  -->
+        <img src="workplace.jpg" alt="workplace" usemap="#workmap" width="400" height="379">
+        <map name="workmap">
+            <area shape="rect" coords="34,44,270,350" alt="computer" href="computer.html">
+            <area shape="rect" coords="290,172,333,250" alt="phone" href="phone.html">
+            <area shape="circle" coords="337,400,44" alt="cup of cooffee" href="coffee.html">
+        </map>
+
+        <!-- Article is used to the self-contained content in a display. -->
+        <article>
+            <h2>Google chrome</h2>
+            <p>google chrome is a web browser developed by Google,released in 2002</p>
+        </article>
+
+        <article>
+            <h2>Mozilla Firefox</h2>
+            <p>Mozilla firefox is an open-source web browser developed by mozilla.</p>
+        </article>
+
+        <!-- aduio tag is used embed sound content in a document -->
+        <audio controls>
+            <source src="hover-engine-6391.mp3" type="audio/mp3">
+        </audio>
+
+        <!-- b tag is a text in a bold in h1 to h6 higlight text etc....  -->
+        <p>This is a normal text-<b>This is a bold text.</b></p>
+          
+        <!-- base tag is a use of the url and target for all relative url -->
+        <a href="tags/tag_base.asp">HTML base tags</a>
+ 
+        <!-- bdi tag is a use of part of a text in formatted in a different direction from other text outside it.  -->/
+        <ul>
+            <li>user <bdi>hrefs</bdi>: 60 points</li>
+            <li>user <bdi>src</bdi>: 70 points</li>
+        </ul>
+
+        <!-- bdo is a use in a override in a current text. -->
+        <p>This paragraph will go left-to-right.</p>
+        <p><bdo dir="rtl">This paragraph will go right-to-left.</bdo></p>
+
+        <!-- blockquote is used to specifies a section that is quoted from another soures. -->
+        <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+        <blockquote>For 50 years, WWF has been protecting the future of nature. 
+            The world's leading conservation organization, 
+            WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+        </blockquote>
+
+        <!-- button tag define in a clickable button. -->
+        <button type="button"> Click me!</button>
+
+        <!-- canvas is use to draw graphics.  -->
+        <canvas id="myCanvase">
+            <script>
+                let canvas=document.getElementById("myCanvase");
+                let ctx=canvas.getContext("2d");
+                ctx.fillstyle="#ff0000";
+                ctx.fillRect(0,0,80,80);
+            </script>
+        </canvas>
+
+        <!-- caption is use to define a table inserted in a after table tag. -->
+        <table>
+            <caption>Monthly Savings</caption>
+            <tr>
+                <th>Month</th>
+                <th>Savings</th>
+            </tr>
+            <tr>
+                <td>isha</td>
+                <td>1000</td>
+            </tr>
+            <tr>
+                <td>Hiren</td>
+                <td>5000</td>
+            </tr>
+        </table>
+
+        <!-- cite is a use of a title of the creative in a work. -->
+        <p>My name is <cite>Isha Bhesaniya</cite></p>
+
+        <!-- code tags is used to define a piece of  computer. -->
+        <p>The HTML <code>Button</code> tag define a clickable button.</p>
+        <p>The css <code>Background-color</code> is a change.</p>
+
+        <!-- col tag specifies coloum properties for each coloum within a colgroup element. -->
+        <!-- colgroup tag specifies a group of one or more columns in a table for formatting. -->
+        <table>
+            <colgroup>
+                <col span="3" style="background-color: cornflowerblue;">
+                <tr>
+                    <th>No</th>
+                    <th>Title</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>HTML</td>
+                    <td>2000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>CSS</td>
+                    <td>3000</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>JAVA</td>
+                    <td>5000</td>
+                </tr>
+            </colgroup>
+        </table>
+        <!-- The <data> tag is used to add a machine-readable translation of a given content. -->
+            <ul>
+                <li><data value="2105">Cherry Tomato</data></li>
+                <li><data value="2105">beef Tomato</data></li>
+                <li><data value="2105">snack Tomato</data></li>
+            </ul>
+
+        <!-- The <datalist> tag specifies a list of pre-defined options for an <input> element. -->
+                <form action="#" method="get">
+                    <label for="browser"> Choose your browser from the list: </label>
+                    <input list="browsers" id="browser" name="browser">
+                    <datalist id="browsers">
+                        <option value="Edge">
+                            <option value="Firefox">
+                            <option value="Chrome">
+                            <option value="Opera">
+                            <option value="Safari">
+                    </datalist>
+                    <input type="submit">
+                </form>
+
+        <!-- The <dd> tag is used to describe a term/name in a description list. -->
+                      <dl>
+                        <dt>Coffee</dt>
+                        <dd>Black hot drink</dd>
+                        <dt>Milk</dt>
+                        <dd>White cold drink</dd>
+                      </dl>
+
+        <!-- The <del> tag defines text that has been deleted from a document. Browsers will usually strike a line through deleted text. -->
+                        <p>My favrite color is <del>blue</del> <ins>red</ins></p>
+
+        <!-- The <details> tag specifies additional details that the user can open and close on demand. -->
+                            <details>
+                                <summary>User information</summary>
+                                <p>MY name is isha bhesaniya</p>
+                            </details>
+
+        <!-- The <dfn> tag stands for the "definition element", and it specifies a term that is going to be defined within the content. -->
+            <p><dfn>HTML</dfn>is the standerd markup language for creating web pages.</p>
+
+        <!-- The <dialog> tag defines a dialog box or subwindow. -->
+           <dialog open>This is onpen diglog box.</dialog>
+
+        <!-- The <div> tag defines a division or a section in an HTML document. -->
+            <div class="mydiv">
+                <h2>This is a heading in a div class</h2>
+                <p>This is some text</p> 
+            </div>
+        <!-- The <em> tag is used to define emphasized text. The content inside is typically displayed in italic. -->
+            <p>you <em>have</em> to hurry up!</p>
+
+        <!-- The <embed> tag defines a container for an external resource, such as a web page, a picture, a media player, or a plug-in application. -->
+            <embed type="image/jpg" src="panda.jpg" height="200" width="300"><br/>
+            <embed type="video/webm" src="movie.mp4" width="400" height="300">
+
+        <!-- The <fieldset> tag is used to group related elements in a form. -->
+            <form action="#">
+                <fieldset>
+                    <legend>Personalia:</legend>
+                    <label for="fname">Frist Name:</label>
+                    <input type="text" id="fname" name="Fname"><br><br>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="Lname"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="Email"><br><br>
+                    <label for="date">Birthday:</label>
+                    <input type="date" id="date" name="Birthday"><br><br>
+                    <input type="submit" value="submit">
+                </fieldset>
+            </form>
+        <!-- The <footer> tag defines a footer for a document or section. -->
+            <footer>
+                <p>Refsnes</p>
+                <p><a href="google.com">link</a></p>
+            </footer>
+            <!-- The H1 to h6 tag in a hending of a tag. -->
+            <h1>This is h1 heading</h1>
+            <h2>This is h2 heading</h2>
+            <h3>This is h3 heading</h3>
+            <h4>This is h4 heading</h4>
+            <h5>This is h5 heading</h5>
+            <h6>This is h6 heading</h6>
+        <!-- The <hr> tag defines a thematic break in an HTML page (e.g. a shift of topic). -->
+        <hr>
+        <p>This is a hr tag</p>
+        <hr>
+
+        <!-- The <iframe> tag specifies an inline frame. -->
+            <iframe src="http://www.w3schools.com" title="w3schools free online website"></iframe>
+
+            <!-- kdd is a use of define an keybord element. -->
+            <p>Prees<kbd>Ctrl</kbd> + <kbd>c</kbd> to copy the text</p>
+
+
+
+
+        <!-- The <mark> tag defines text that should be marked or highlighted. -->
+            <p>my name is <mark>Isha</mark> bhesaniya.</p>
+
+        <!-- The <mark> tag defines text that should be marked or highlighted. -->
+            <meta name="">
+
+        <!-- The <nav> tag defines a set of navigation links. -->
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">product</a>
+            </nav>
+
+        <!-- The <ol> tag defines an ordered list. An ordered list can be numerical or alphabetical. -->
+            <ol>
+                <li>coffee</li>
+                <li>Pezza</li>
+                <li>Milk</li>
+            </ol>
+            <ol start="20">
+                <li>Tea</li>
+                <li>Coffee</li>
+                <li>Milk</li>
+            </ol>
+        <!-- The <optgroup> tag is used to group related options in a <select> element (drop-down list). -->
+            <form action="#">
+                <label for="cars">Choose car:</label>
+                <select name="car" id="cars">
+                    <optgroup label="Swedish cars">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                    </optgroup>
+                    <optgroup label="German cars">
+                        <option value="Mercedes">Mercedes</option>
+                        <option value="audi">audi</option>
+                    </optgroup>
+                </select>
+                <input type="submit" value="Submit">
+            </form>
+
+            <!-- The <output> tag is used to represent the result of a calculation (like one performed by a script). -->
+                <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+                    <input type="range" id="a" value="50">
+                    +<input type="number" id="b" value="25">
+                    =<output name="x" for="a b"></output>
+                  </form>
+            <!-- The <param> tag is used to define parameters for an <object> element. -->
+                <object data="hover-engine-6391.mp3">
+                    <param name="autoplay" value="true">
+                </object><br>
+
+            <!-- The <progress> tag represents the completion progress of a task. -->
+                <label for="file">Progress:</label>
+                <progress id="file" value="20" max="100">32%</progress>
+
+            <!-- The <s> tag specifies text that is no longer correct, accurate or relevant. The text will be displayed with a line through it. -->
+                <p><s>Only 50 tickets left!</s></p>
+                <p>Stock out</p>
+
+            <!-- The <samp> tag is used to define sample output from a computer program. The content inside is displayed in the browser's default monospace font. -->
+                <p>Message from my coumputer:</p>
+                <p><samp>File not found.<br>Press f1 to continue</samp></p>
+         
+            <!-- The <strong> tag is used to define text with strong importance. The content inside is typically displayed in bold. -->
+                <strong>This text is importance!</strong>
+
+                <!-- The sub tag define in subscript text. -->
+                <!-- The sup tag define in superscript in text. -->
+                <p>This text is a <sub>subscript</sub>a.</p>
+                <p>This text is a <sup>superscript</sup>a.</p>
+
+            <!-- The <svg> tag defines a container for SVG graphics. -->
+                <svg width="100" height="100">
+                    <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow"/>
+                </svg>
+
+            <!-- The <template> tag is used as a container to hold some HTML content hidden from the user when the page loads. -->
+                <p>Click the button in hidden text</p>
+                <button onclick="showcontent()">Show Hidden content</button>
+                <template>
+                   <h2>Panda</h2>
+                   <img src="panda.jpg" width="214" height="204">
+                </template>
+                <script>
+                    function showcontent(){
+                        let temp=document.getElementsByTagName("template")[0];
+                        let con=temp.content.cloneNode(true);
+                        document.body.appendChild(clon);
+                    }
+                </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+         
+    </body>
+    
+</html>
