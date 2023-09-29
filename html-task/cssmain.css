@@ -39,18 +39,18 @@ scroll{
  {
   width: 20%;
   float: left;
-  height: 1000px;
+  height: 630px;
   background-color: plum;
-  overflow-y: scroll;
+  overflow-y: auto;
   border: 1px solid black;
 }
 
  div.art3 {
    width: 20%;
      float: right;
-     height: 1000px;
+     height: 630px;
      background-color:plum; 
-     overflow-y: scroll;
+     overflow-y: auto;
      border: 1px solid black;
  }
 
@@ -63,8 +63,8 @@ scroll{
 
  div.asd{
   
-  height:297px;
-  width:299px;
+  height:200px;
+  width:19.3%;
   float: left;
   text-align: center; 
   border:2px solid black;
@@ -75,13 +75,18 @@ scroll{
 
  div.foot{
   
-        padding: 4px;
+        /* padding: px; */
         background-color:olivedrab;
-        width: 899px;
-        height: 333px;
+        width: 59%;
+        height: 400px;
         overflow-x: auto;
         overflow-y: hidden;
         white-space: nowrap;
    
  }
-
+ .container {
+  max-width: 1600px;
+  width: 200%;
+  margin: 0 auto;
+  }
+  
