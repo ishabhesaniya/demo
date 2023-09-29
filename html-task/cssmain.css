@@ -1,0 +1,87 @@
+body{
+  width: 900;
+  overflow: hidden;
+}
+navbar,a{
+    margin: 80px;
+    padding: 10px;
+}
+navbar,button{
+    background-color: cornflowerblue;
+    height: 50px;
+    width: 90px;
+}
+/* article{
+    border: 1px solid black;
+    float: left;
+    padding: 99px;
+    width: 20%;
+    background-color: #f1f1f1;
+    height: 400px;
+    overflow: auto;
+}
+aside{
+    border: 1px solid black;
+    float: left;
+    padding: 100px;
+    width: 30%;
+    background-color: pink;
+    height: 100Px;
+    overflow: scroll;
+    
+}
+scroll{
+    over
+}
+ */
+ 
+ div.art1
+ {
+  width: 20%;
+  float: left;
+  height: 1000px;
+  background-color: plum;
+  overflow-y: scroll;
+  border: 1px solid black;
+}
+
+ div.art3 {
+   width: 20%;
+     float: right;
+     height: 1000px;
+     background-color:plum; 
+     overflow-y: scroll;
+     border: 1px solid black;
+ }
+
+ /* div.art2 {
+   background-color: gray ;
+   border: 1px solid black;
+   height: 500px;
+   overflow: auto
+ } */
+
+ div.asd{
+  
+  height:297px;
+  width:299px;
+  float: left;
+  text-align: center; 
+  border:2px solid black;
+  background-color: pink;
+  overflow:auto;
+  white-space:nowrap;
+ }
+
+ div.foot{
+  
+        padding: 4px;
+        background-color:olivedrab;
+        width: 899px;
+        height: 333px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+   
+ }
+
