@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>Registration form </title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <table>
+            <tr>
+             <td><h2>Registration From</h2></td>
+            </tr>
+            
+            <tr>
+                <td>Frist Name:</td>
+                <td><input type="text" placeholder="Enter Your Frist Name"></td>
+            </tr>
+
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" placeholder="Enter Your Last Name"></td>
+            </tr>
+
+            <tr>
+                <td>Full Name:</td>
+                <td><input type="text" placeholder="Enter Your Full Name"></td>
+            </tr> 
+
+            <tr>
+                <td>Gender:</td>
+                <td>Male<input type="radio" value="Male" name="Gender">
+                    Female<input type="radio" value="Female" name="Gender">
+                    other<input type="radio" value="other" name="Gender"></td>
+            </tr>
+
+             <tr>
+                <td>Age:</td>
+                <td><input type="number" placeholder="Enter Your Age"></td>
+             </tr>
+
+             <tr>
+                <td>Email:</td>
+                <td><input type="email" placeholder="Enter Your Email"></td>
+             </tr>
+
+             <tr>
+                <td>Password:</td>
+                <td><input type="password" placeholder="Enter Your password"></td>
+             </tr>
+
+             <tr>
+                <td>Mobile NO:</td>
+                <td><input type="tel" pattern="[0-9]{2}-[0-9]{10}"></td>
+             </tr>
+
+             <tr>
+                <td>Hobby:</td>
+                <td>Playing<input type="checkbox" value="play" name="hobby">
+                    Dancing<input type="checkbox" value="dance" name="hobby1">
+                    Traveling<input type="checkbox" value="Traveling" name="hobby2"></td>
+             </tr>
+
+             <tr>
+                <td>Brithday:</td>
+                <td><input type="date"></td>
+             </tr>
+
+             <tr>
+             <td>Qulification:</td>
+             <td><select name="quli">
+                <option>Graduation</option>
+                <option>Post-Graduation</option>
+                <option>PHD</option>
+             </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Comment:</td>
+            <td><textarea role="4" cols="20"></textarea></td>
+        </tr>
+
+        <tr>
+            <td>Upload Cv</td>
+            <td><input type="file"></td>
+        </tr>
+       <tr>
+        <td colspan="2">
+        <button type="submit" value="Submit">Submit</button>
+        <button type="reset" value="Reset">Reset</button>
+        </td> 
+    </tr>       
+    </table>
+    </body>
+</html>
