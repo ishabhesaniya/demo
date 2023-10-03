@@ -3,21 +3,21 @@ body{
     height: 100px;
     width: 100px;
 }
-div,one{
+div.one{
     border: 1px solid black;
     width: 1500px;
     height: 70px;
     text-align: center;
     background-color: darksalmon;   
 }
-div,two{
+div.two{
     border-radius: 19px;
     width: 1500px;
     height: 70px;
     text-align: center;
     background-color: darksalmon;   
 }
-div,three{
+div.three{
     border-radius: 19px;
     width: 1500px;
     height: 70px;
