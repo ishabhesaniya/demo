@@ -17,3 +17,10 @@ div,two{
     text-align: center;
     background-color: darksalmon;   
 }
+div,three{
+    border-radius: 19px;
+    width: 1500px;
+    height: 70px;
+    text-align: center;
+    background-color: darksalmon;   
+}
