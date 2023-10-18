@@ -1,0 +1,89 @@
+body{
+    overflow: hidden;
+}
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 300px 400px 200px;
+    grid-template-rows: 0.2fr 1.5fr 1.2fr;
+    grid-template-areas: "parta partb partb"
+                          "parta partc partd"
+                          "parte partc partf";
+    grid-gap: 1.5rem;
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.parta{
+    background-color: rgb(242, 242, 243);
+    grid-area: parta;
+    border-radius: 5px 3px;
+    box-shadow: 5px 3px rgb(204, 203, 203);
+    padding-top: 120px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.partb{
+    background-color:  rgb(242, 242, 243);
+    grid-area: partb;
+    border-radius: 5px 3px;
+    box-shadow: 5px 3px rgb(204, 203, 203);
+    height: 180px;
+    padding-top: 50px;
+    padding-right: 25px;
+    padding-left: 30px;
+}
+.partc{
+    background-color:  rgb(242, 242, 243);
+    grid-area: partc;
+    border-radius: 5px 3px;
+    box-shadow: 5px 3px rgb(204, 203, 203);
+    padding-top: 160px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.partd{
+    background-color:lightgray;
+    grid-area: partd;
+    border-radius: 5px 3px;
+    outline: solid 10px lightgreen;
+    padding-top: 40px;
+    font-size: 15px;
+    padding-right: 10px;
+    padding-left:30px;
+    /* box-shadow: 5px 3px rgb(204, 203, 203); */
+}
+.parte{
+    background-color: lightgray;
+    grid-area: parte;
+    border-radius: 5px 3px;
+    outline: lightcoral  10px solid;
+    padding-top: 50px;
+    padding-right: 25px;
+    padding-left: 30px;
+    /* box-shadow: 5px 3px rgb(204, 203, 203); */
+}
+.partf{
+    background-color:  rgb(242, 242, 243);
+    grid-area: partf;
+    border-radius: 5px 3px;
+    box-shadow: 5px 3px rgb(204, 203, 203);
+    padding-top: 40px;
+    font-size: 15px;
+    padding-right: 10px;
+    padding-left:30px;
+}
+@media  screen and (max-width:550px) {
+    .container{
+        grid-template-columns: 1fr;
+        /* grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr; */
+        grid-template-areas: "parta"
+                              "partb"
+                             "partc" 
+                             "partd"
+                             "parte"
+                             "partf"
+                            
+    }
+    
+}
