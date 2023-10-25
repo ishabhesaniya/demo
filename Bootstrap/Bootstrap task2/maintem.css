@@ -27,6 +27,9 @@ body{
 nav{
     background: rgb(2, 2, 30);
 }
+.navbar-nav .nav-item .nav-link:hover {
+    color: #EAB308;
+}
 
 
 
