@@ -1,0 +1,8 @@
+.col-6{
+    height: 500px;
+    /* border: 1px solid black; */
+    width: 100%;
+}
+.col-md-12 p{
+    border-bottom: 1px solid lightgray;
+}
