@@ -53,4 +53,13 @@ div.figmas{
     padding-top: 20px;
     background-color: darksalmon;   
 }
+div.figma1{
+    border: 1px solid black;
+    border-radius: 19px;
+    width: 1500px;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: darksalmon;   
+}
 

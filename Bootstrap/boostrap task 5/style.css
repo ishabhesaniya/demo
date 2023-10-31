@@ -1,0 +1,48 @@
+@media only screen and (min-width: 768px) {
+    /* For mobile phone: */
+    container .navbar{
+        width: 50% ;
+    }
+    
+  }
+
+ul il .navbar-nav .nav-item .nav-link{
+    color: black;
+}
+/* #home{
+    background-image: url(img/Rectangle\ 130.png);
+    height: 449px;
+    width: 100%;
+    box-shadow: gainsboro 5px 5px 5px 5px;
+} */
+/* #home #a1{
+    padding-top: 16px; 
+    padding-left: 135px; 
+   
+} */
+/* #abc
+{
+    position: absolute;
+    bottom: 35%;
+    left: 10%;
+}
+#p1,#p2{
+    color: #0E0E0E;
+    font-size: 30px;
+    font-family: "Poppins";
+    font-weight: 600;
+    word-wrap: break-word;
+}
+   
+@media screen and (max-width:990px){
+     #p1,#p2{
+        color: #0E0E0E;
+        font-size: 15px;
+        font-family: "Poppins";
+        font-weight: 100;
+        word-wrap: break-word;
+     }
+} */
+.checked {
+    color: orange;
+  }
