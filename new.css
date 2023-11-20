@@ -6,7 +6,7 @@ body{
 div.one{
     border: 1px solid black;
     border-radius: 19px;
-    width: 1500px;
+    width: 900px;
     height: 70px;
     text-align: center;
     background-color: darksalmon;  
@@ -14,7 +14,7 @@ div.one{
 div.two{
     border: 1px solid black;
     border-radius: 19px;
-    width: 1500px;
+    width: 900px;
     height: 70px;
     text-align: center;
     background-color: darksalmon;   
@@ -22,7 +22,7 @@ div.two{
 div.three{
     border: 1px solid black;
     border-radius: 19px;
-    width: 1500px;
+    width: 900px;
     height: 70px;
     text-align: center;
     background-color: darksalmon;   
@@ -30,46 +30,40 @@ div.three{
 div.grid{
     border: 1px solid black;
     border-radius: 19px;
-    width: 1500px;
+    width: 900px;
     height: 70px;
     text-align: center;
-    padding-top: 20px;
     background-color: darksalmon;   
 }
 div.figma{
     border: 1px solid black;
     border-radius: 19px;
-    width: 1500px;
+    width: 900px;
     height: 70px;
     text-align: center;
-    padding-top: 20px;
     background-color: darksalmon;   
 }
 div.figmas{
     border: 1px solid black;
     border-radius: 19px;
-    width: 1500px;
+    width: 900px;
     height: 70px;
     text-align: center;
-    padding-top: 20px;
     background-color: darksalmon;   
 }
 div.figma1{
     border: 1px solid black;
     border-radius: 19px;
-    width: 1500px;
+    width: 900px;
     height: 70px;
     text-align: center;
-    padding-top: 20px;
     background-color: darksalmon;   
 }
 div.toforzero{
     border: 1px solid black;
     border-radius: 19px;
-    width: 1500px;
+    width: 900px;
     height: 70px;
     text-align: center;
-    padding-top: 20px;
     background-color: darksalmon;   
 }
-
