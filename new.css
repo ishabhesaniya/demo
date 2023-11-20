@@ -5,10 +5,11 @@ body{
 }
 div.one{
     border: 1px solid black;
+    border-radius: 19px;
     width: 1500px;
     height: 70px;
     text-align: center;
-    background-color: darksalmon;   
+    background-color: darksalmon;  
 }
 div.two{
     border: 1px solid black;
